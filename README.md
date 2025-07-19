@@ -536,7 +536,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-## 🙏 **Teşekkürler**
+## 🙏 **Acknowledgments**
 
 <div align="center">
 
@@ -547,22 +547,22 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 </div>
 
-- **Open-Meteo** - Ücretsiz hava durumu API'si
-- **ENTSO-E** - Elektrik piyasa verileri
-- **Hugging Face** - Transformer modelleri
-- **Nixtla** - NeuralForecast kütüphanesi
+- **Open-Meteo** - Free weather API service
+- **ENTSO-E** - Electricity market data
+- **Hugging Face** - Transformer models
+- **Nixtla** - NeuralForecast library
 
 ---
 
 <div align="center">
 
-## ⚡ **Renecore-GreenFleet ile yenilenebilir enerji geleceğini bugünden planlayın!**
+## ⚡ **Plan your renewable energy future today with Renecore-GreenFleet!**
 
 [![Made with ❤️](https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge)](https://github.com/username/Renecore-GreenFleet)
 [![Powered by AI](https://img.shields.io/badge/Powered%20by-AI-FF6B6B?style=for-the-badge&logo=artificial-intelligence)](https://github.com/username/Renecore-GreenFleet)
 [![Green Energy](https://img.shields.io/badge/Green-Energy-4ECDC4?style=for-the-badge&logo=leaf)](https://github.com/username/Renecore-GreenFleet)
 
-### 🌟 **Projeyi Beğendiyseniz Yıldız Vermeyi Unutmayın!**
+### 🌟 **If You Like This Project, Don't Forget to Give It a Star!**
 
 [![GitHub stars](https://img.shields.io/github/stars/username/Renecore-GreenFleet?style=social&label=Star)](https://github.com/username/Renecore-GreenFleet/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/username/Renecore-GreenFleet?style=social&label=Fork)](https://github.com/username/Renecore-GreenFleet/network/members)
@@ -570,6 +570,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-*Bu proje sürdürülebilir enerji geleceği için geliştirilmiştir. 🌍💚*
+*This project was developed for a sustainable energy future. 🌍💚*
 
 </div>
