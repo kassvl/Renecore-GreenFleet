@@ -369,17 +369,17 @@ MODEL_CONFIG = {
 
 ---
 
-## 📈 **Performans Metrikleri**
+## 📈 **Performance Metrics**
 
 <div align="center">
 
-### 🎯 **ML Model Performansı**
+### 🎯 **ML Model Performance**
 
 ![Power MAPE](https://img.shields.io/badge/Power_MAPE-6.2%25-brightgreen?style=for-the-badge&logo=zap)
 ![Revenue MAPE](https://img.shields.io/badge/Revenue_MAPE-20.3%25-yellow?style=for-the-badge&logo=dollar-sign)
 ![CO2 MAPE](https://img.shields.io/badge/CO2_MAPE-6.2%25-brightgreen?style=for-the-badge&logo=leaf)
 
-### ⚡ **Sistem Performansı**
+### ⚡ **System Performance**
 
 ![Response Time](https://img.shields.io/badge/Response_Time-<100ms-success?style=for-the-badge&logo=speedometer)
 ![Memory Usage](https://img.shields.io/badge/Memory_Usage-1--2GB-blue?style=for-the-badge&logo=memory)
@@ -387,22 +387,22 @@ MODEL_CONFIG = {
 
 </div>
 
-### ML Model Performansı (Test Verisi)
-- **Güç Tahmini MAPE**: %6.2
-- **Gelir Tahmini MAPE**: %20.3
-- **CO₂ Tahmini MAPE**: %6.2
-- **Eğitim Süresi**: ~2 dakika (30 günlük sentetik veri)
-- **Tahmin Süresi**: <1 saniye (7 günlük)
+### ML Model Performance (Test Data)
+- **Power Prediction MAPE**: 6.2%
+- **Revenue Prediction MAPE**: 20.3%
+- **CO₂ Prediction MAPE**: 6.2%
+- **Training Time**: ~2 minutes (30-day synthetic data)
+- **Prediction Time**: <1 second (7-day forecast)
 
-### Sistem Performansı (Tahmini)
-- **API Yanıt Süresi**: <100ms (basit sorgular)
-- **Bellek Kullanımı**: ~1-2GB (ML modelleri dahil)
-- **Veri İşleme**: Saatlik batch işleme
-- **Eş Zamanlı Kullanıcı**: Test edilmemiş
+### System Performance (Estimated)
+- **API Response Time**: <100ms (simple queries)
+- **Memory Usage**: ~1-2GB (including ML models)
+- **Data Processing**: Hourly batch processing
+- **Concurrent Users**: Not tested
 
 ---
 
-## 🔒 **Güvenlik**
+## 🔒 **Security**
 
 <div align="center">
 
@@ -412,11 +412,11 @@ MODEL_CONFIG = {
 
 </div>
 
-- **CORS Koruması** - Cross-origin request güvenliği
-- **SQL Injection Koruması** - SQLModel ORM ile
-- **Rate Limiting** - API kötüye kullanım koruması
-- **Input Validation** - Pydantic ile veri doğrulama
-- **Environment Variables** - Hassas bilgi yönetimi
+- **CORS Protection** - Cross-origin request security
+- **SQL Injection Protection** - SQLModel ORM protection
+- **Rate Limiting** - API abuse protection
+- **Input Validation** - Pydantic data validation
+- **Environment Variables** - Sensitive information management
 
 ---
 
@@ -430,15 +430,15 @@ MODEL_CONFIG = {
 </div>
 
 ```bash
-# Backend testleri
+# Backend tests
 cd backend
 pytest tests/ -v
 
-# Frontend testleri
+# Frontend tests
 cd frontend
 npm test
 
-# E2E testleri
+# E2E tests
 npm run test:e2e
 ```
 
