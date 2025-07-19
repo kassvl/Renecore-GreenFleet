@@ -464,14 +464,14 @@ kubectl apply -f k8s/
 ```
 
 ### Cloud Deployment
-- **AWS ECS/EKS** - Konteyner servisleri
+- **AWS ECS/EKS** - Container services
 - **Google Cloud Run** - Serverless deployment
-- **Azure Container Instances** - Hızlı deployment
-- **DigitalOcean App Platform** - Basit deployment
+- **Azure Container Instances** - Fast deployment
+- **DigitalOcean App Platform** - Simple deployment
 
 ---
 
-## 🤝 **Katkıda Bulunma**
+## 🤝 **Contributing**
 
 <div align="center">
 
@@ -481,15 +481,15 @@ kubectl apply -f k8s/
 
 </div>
 
-1. Fork yapın
-2. Feature branch oluşturun (`git checkout -b feature/amazing-feature`)
-3. Değişikliklerinizi commit edin (`git commit -m 'Add amazing feature'`)
-4. Branch'inizi push edin (`git push origin feature/amazing-feature`)
-5. Pull Request açın
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
 ---
 
-## 📄 **Lisans**
+## 📄 **License**
 
 <div align="center">
 
@@ -498,11 +498,11 @@ kubectl apply -f k8s/
 
 </div>
 
-Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakın.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 👥 **Ekip**
+## 👥 **Team**
 
 <div align="center">
 
