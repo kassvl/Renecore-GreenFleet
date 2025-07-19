@@ -1,8 +1,6 @@
 <div align="center">
 
-# 🌱 Renecore-GreenFleet
-
-**Yenilenebilir Enerji İzleme ve ML Tahmin Sistemi**
+# 🌱 Renecore-GreenFleet: Renewable Energy Monitoring and Forecasting Platform
 
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
@@ -26,27 +24,27 @@
 
 ---
 
-*Renecore-GreenFleet, rüzgar ve güneş enerji sahalarının gerçek zamanlı izlenmesi ve makine öğrenimi destekli 7 günlük tahminleri için geliştirilmiş bir platformdur. Modern ML modelleri ile güç üretimi, gelir ve CO₂ tasarrufu tahminleri sunar.*
+*Renecore-GreenFleet is a professional platform developed for real-time monitoring and machine learning-powered 7-day forecasting of wind and solar energy sites. It provides power generation, revenue, and CO₂ savings predictions using modern ML models.*
 
 </div>
 
 ---
 
-## 📊 **Proje İstatistikleri**
+## 📊 **Project Statistics**
 
 <div align="center">
 
-| 📈 **Metrik** | 📊 **Değer** | 🎯 **Durum** |
+| 📈 **Metric** | 📊 **Value** | 🎯 **Status** |
 |:---:|:---:|:---:|
-| **ML Modelleri** | 3 (TFT, N-BEATS, DeepAR) | ✅ Aktif |
-| **API Endpoints** | 15+ | ✅ Dokümantasyonlu |
-| **Test Kapsamı** | Demo Verisi | ✅ Çalışır Durumda |
-| **Dil Desteği** | TR/EN | ✅ Çok Dilli |
-| **Deployment** | Docker Compose | ✅ Hazır |
+| **ML Models** | 3 (TFT, N-BEATS, DeepAR) | ✅ Active |
+| **API Endpoints** | 15+ | ✅ Documented |
+| **Test Coverage** | Demo Data | ✅ Operational |
+| **Language Support** | TR/EN | ✅ Multi-language |
+| **Deployment** | Docker Compose | ✅ Ready |
 
 </div>
 
-## 🚀 **Öne Çıkan Özellikler**
+## 🚀 **Key Features**
 
 <div align="center">
 
@@ -57,35 +55,35 @@
 
 </div>
 
-### 🧠 **Makine Öğrenimi Sistemi**
-- **Temporal Fusion Transformer (TFT)** - Attention tabanlı zaman serisi modeli
-- **N-BEATS** - Neural basis expansion modeli  
-- **DeepAR** - Probabilistik tahmin modeli
-- **Ensemble Yaklaşımı** - Çoklu model kombinasyonu
-- **Demo Performansı** - Sentetik veriyle test edilmiş
+### 🧠 **Machine Learning System**
+- **Temporal Fusion Transformer (TFT)** - Attention-based time series model
+- **N-BEATS** - Neural basis expansion model  
+- **DeepAR** - Probabilistic forecasting model
+- **Ensemble Approach** - Multi-model combination
+- **Demo Performance** - Tested with synthetic data
 
-### 📊 **Veri İşleme ve Entegrasyon**
-- **Özellik Mühendisliği** - Zaman, lag, rolling, döngüsel özellikler
-- **Open-Meteo API** - 7 günlük saatlik hava durumu verisi
-- **Elektrik Fiyat Entegrasyonu** - Dinamik fiyatlandırma
-- **Batarya Simülasyonu** - Depolama optimizasyonu
+### 📊 **Data Processing and Integration**
+- **Feature Engineering** - Time, lag, rolling, cyclical features
+- **Open-Meteo API** - 7-day hourly weather data
+- **Electricity Price Integration** - Dynamic pricing
+- **Battery Simulation** - Storage optimization
 
-### 🎯 **Modern Mimari**
-- **FastAPI 0.110** - Asenkron web framework
-- **Next.js 14** - React tabanlı frontend
-- **PostgreSQL** - İlişkisel veritabanı
-- **Docker Compose** - Konteyner orkestrasyon
-- **Swagger UI** - API dokümantasyonu
+### 🎯 **Modern Architecture**
+- **FastAPI 0.110** - Asynchronous web framework
+- **Next.js 14** - React-based frontend
+- **PostgreSQL** - Relational database
+- **Docker Compose** - Container orchestration
+- **Swagger UI** - API documentation
 
-### 🌍 **Görselleştirme ve Arayüz**
-- **Leaflet Haritalar** - İnteraktif saha görselleştirmesi
-- **Chart.js Grafikler** - Veri analizi grafikleri
-- **Responsive Tasarım** - Çoklu cihaz desteği
-- **Çok Dilli Destek** - Türkçe/İngilizce arayüz
+### 🌍 **Visualization and Interface**
+- **Leaflet Maps** - Interactive site visualization
+- **Chart.js Graphics** - Data analysis charts
+- **Responsive Design** - Multi-device support
+- **Multi-language Support** - Turkish/English interface
 
 ---
 
-## 🛠 **Teknoloji Yığını**
+## 🛠 **Technology Stack**
 
 <div align="center">
 
@@ -123,32 +121,32 @@
 </div>
 
 ### Backend
-- **Python 3.11** - Modern Python sürümü
-- **FastAPI 0.110** - Yüksek performanslı web framework
-- **SQLModel 0.14** - Tip güvenli ORM
-- **PyTorch 2.1.2** - Derin öğrenme framework'ü
-- **Lightning 2.1.3** - ML model eğitimi
-- **Transformers 4.36.2** - Hugging Face modelleri
-- **NeuralForecast 1.6.4** - Zaman serisi modelleri
-- **Optuna 3.5.0** - Hiperparametre optimizasyonu
-- **MLflow 2.9.2** - Model lifecycle yönetimi
+- **Python 3.11** - Modern Python version
+- **FastAPI 0.110** - High-performance web framework
+- **SQLModel 0.14** - Type-safe ORM
+- **PyTorch 2.1.2** - Deep learning framework
+- **Lightning 2.1.3** - ML model training
+- **Transformers 4.36.2** - Hugging Face models
+- **NeuralForecast 1.6.4** - Time series models
+- **Optuna 3.5.0** - Hyperparameter optimization
+- **MLflow 2.9.2** - Model lifecycle management
 
 ### Frontend
 - **Next.js 14** - React framework (App Router)
-- **TypeScript** - Tip güvenli JavaScript
-- **Leaflet** - İnteraktif harita kütüphanesi
-- **Chart.js 4** - Veri görselleştirme
+- **TypeScript** - Type-safe JavaScript
+- **Leaflet** - Interactive map library
+- **Chart.js 4** - Data visualization
 - **Tailwind CSS** - Modern CSS framework
 
 ### DevOps & Infrastructure
-- **Docker & Docker Compose** - Konteynerizasyon
-- **PostgreSQL** - İlişkisel veritabanı
-- **Uvicorn** - ASGI sunucu
+- **Docker & Docker Compose** - Containerization
+- **PostgreSQL** - Relational database
+- **Uvicorn** - ASGI server
 - **Nginx** - Reverse proxy (production)
 
 ---
 
-## ⚡ **Hızlı Başlangıç**
+## ⚡ **Quick Start**
 
 <div align="center">
 
@@ -157,29 +155,29 @@
 
 </div>
 
-### Gereksinimler
+### Requirements
 - Python 3.11+
 - Node.js 18+
 - Docker & Docker Compose
 - Git
 
-### 1. Projeyi Klonlayın
+### 1. Clone the Project
 
 ```bash
 git clone https://github.com/your-username/Renecore-GreenFleet.git
 cd Renecore-GreenFleet
 ```
 
-### 2. Docker ile Çalıştırın (Önerilen)
+### 2. Run with Docker (Recommended)
 ```bash
-# Tüm servisleri başlat
+# Start all services
 docker compose up --build
 
-# Arka planda çalıştır
+# Run in background
 docker compose up -d --build
 ```
 
-### 3. Manuel Kurulum
+### 3. Manual Installation
 ```bash
 # Backend
 cd backend
@@ -195,7 +193,7 @@ npm install
 npm run dev
 ```
 
-### 4. Erişim Adresleri
+### 4. Access URLs
 - **Frontend**: http://localhost:3000
 - **Backend API**: http://localhost:8000
 - **Swagger UI**: http://localhost:8000/docs
@@ -203,7 +201,7 @@ npm run dev
 
 ---
 
-## 🤖 **ML Sistemi Kullanımı**
+## 🤖 **ML System Usage**
 
 <div align="center">
 
@@ -213,39 +211,39 @@ npm run dev
 
 </div>
 
-### Model Eğitimi
+### Model Training
 ```bash
-# Belirli bir saha için model eğit
+# Train model for specific site
 curl -X POST "http://localhost:8000/api/ml/1/train" \
   -H "accept: application/json"
 ```
 
-### 7 Günlük Tahmin
+### 7-Day Forecasting
 ```bash
-# Eğitilmiş modelle tahmin al
+# Get predictions with trained model
 curl -X GET "http://localhost:8000/api/ml/1/predict" \
   -H "accept: application/json"
 ```
 
-### Demo ML Eğitimi (Sentetik Veri)
+### Demo ML Training (Synthetic Data)
 ```bash
 cd backend
 python demo_ml.py
 ```
 
-**Örnek Çıktı:**
+**Sample Output:**
 ```
-🚀 Model Eğitimi Tamamlandı!
-📈 Güç tahmini MAPE: 6.2%
-💰 Gelir tahmini MAPE: 20.3%
-🌱 CO₂ tahmini MAPE: 6.2%
+🚀 Model Training Completed!
+📈 Power prediction MAPE: 6.2%
+💰 Revenue prediction MAPE: 20.3%
+🌱 CO₂ prediction MAPE: 6.2%
 
-🔮 7 Günlük Tahmin:
-📊 Ortalama güç: 2.94 MW
-💰 Toplam gelir: 41,818 EUR
-🌱 Toplam CO₂: 247,146 kg
+🔮 7-Day Forecast:
+📊 Average power: 2.94 MW
+💰 Total revenue: 41,818 EUR
+🌱 Total CO₂: 247,146 kg
 
-* Sentetik test verisi ile elde edilen sonuçlar
+* Results obtained with synthetic test data
 ```
 
 ---
@@ -259,15 +257,15 @@ python demo_ml.py
 
 </div>
 
-### Saha Yönetimi
+### Site Management
 ```bash
-# Tüm sahaları listele
+# List all sites
 GET /api/sites
 
-# Yeni saha ekle
+# Add new site
 POST /api/sites
 {
-  "name": "Ankara Rüzgar Santrali",
+  "name": "Ankara Wind Farm",
   "country": "Turkey",
   "capacity_mw": 50.0,
   "site_type": "wind",
@@ -275,22 +273,22 @@ POST /api/sites
   "longitude": 32.8597
 }
 
-# Saha detayları
+# Site details
 GET /api/sites/{site_id}
 ```
 
-### Tahmin Servisleri
+### Forecast Services
 ```bash
-# Geleneksel tahmin (hava durumu bazlı)
+# Traditional forecast (weather-based)
 GET /api/forecast/{site_id}?type=wind&battery=true
 
-# ML tabanlı tahmin
+# ML-based forecast
 GET /api/ml/{site_id}/predict
 ```
 
-### Batarya Yönetimi
+### Battery Management
 ```bash
-# Batarya konfigürasyonu
+# Battery configuration
 POST /api/battery/{site_id}
 {
   "capacity_mwh": 4.0,
@@ -301,7 +299,7 @@ POST /api/battery/{site_id}
 
 ---
 
-## 🏗 **Proje Yapısı**
+## 🏗 **Project Structure**
 
 <div align="center">
 
@@ -314,39 +312,39 @@ POST /api/battery/{site_id}
 Renecore-GreenFleet/
 ├── backend/                 # Python FastAPI backend
 │   ├── app/
-│   │   ├── main.py         # FastAPI uygulaması
-│   │   ├── models.py       # SQLModel veri modelleri
-│   │   ├── crud.py         # Veritabanı işlemleri
-│   │   ├── services.py     # İş mantığı servisleri
-│   │   ├── ml_models.py    # ML model tanımları
-│   │   ├── ml_service.py   # ML servis katmanı
-│   │   └── tasks.py        # Arka plan görevleri
-│   ├── demo_ml.py          # Demo ML eğitimi
-│   ├── requirements.txt    # Python bağımlılıkları
-│   └── Dockerfile          # Backend konteyner
+│   │   ├── main.py         # FastAPI application
+│   │   ├── models.py       # SQLModel data models
+│   │   ├── crud.py         # Database operations
+│   │   ├── services.py     # Business logic services
+│   │   ├── ml_models.py    # ML model definitions
+│   │   ├── ml_service.py   # ML service layer
+│   │   └── tasks.py        # Background tasks
+│   ├── demo_ml.py          # Demo ML training
+│   ├── requirements.txt    # Python dependencies
+│   └── Dockerfile          # Backend container
 ├── frontend/               # Next.js frontend
 │   ├── app/
-│   │   ├── page.tsx        # Ana sayfa
-│   │   ├── layout.tsx      # Sayfa düzeni
-│   │   └── components/     # React bileşenleri
-│   ├── package.json        # Node.js bağımlılıkları
-│   └── Dockerfile          # Frontend konteyner
-├── docker-compose.yml      # Çoklu konteyner konfigürasyonu
-└── README.md              # Bu dosya
+│   │   ├── page.tsx        # Main page
+│   │   ├── layout.tsx      # Page layout
+│   │   └── components/     # React components
+│   ├── package.json        # Node.js dependencies
+│   └── Dockerfile          # Frontend container
+├── docker-compose.yml      # Multi-container configuration
+└── README.md              # This file
 ```
 
-## 🔧 Konfigürasyon
+## 🔧 Configuration
 
-### Ortam Değişkenleri
+### Environment Variables
 ```bash
-# .env dosyası oluşturun
+# Create .env file
 DATABASE_URL=postgresql://user:pass@localhost:5432/renecore
 SLACK_WEBHOOK=https://hooks.slack.com/...
 WANDB_API_KEY=your_wandb_key
 MLFLOW_TRACKING_URI=http://localhost:5000
 ```
 
-### ML Model Konfigürasyonu
+### ML Model Configuration
 ```python
 # backend/app/ml_models.py
 MODEL_CONFIG = {
