@@ -1,0 +1,51 @@
+services:
+  # PostgreSQL veritabanı
+  db:
+    image: postgres:15-alpine
+    container_name: greenfleet-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: greenfleet
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    # Host-port map kaldırıldı; sadece konteyner içi erişim yeterli
+    # ports:
+    #   - "5432:5432"
+
+  # Backend servisi (FastAPI)
+  backend:
+    build:
+      context: ./backend
+    container_name: greenfleet-backend
+    volumes:
+      - ./backend:/app
+      - ./prices.json:/app/prices.json
+      - ./grid_factors.json:/app/grid_factors.json
+    ports:
+      - "8001:8000"
+    environment:
+      - DATABASE_URL=postgresql://postgres:postgres@db:5432/greenfleet
+      - SLACK_WEBHOOK=${SLACK_WEBHOOK:-}
+    depends_on:
+      - db
+    command: uvicorn app.main:app --host 0.0.0.0 --reload
+
+  # Frontend servisi (Next.js)
+  frontend:
+    build:
+      context: ./frontend
+    container_name: greenfleet-frontend
+    volumes:
+      - ./frontend:/app
+    ports:
+      - "3001:3000"
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:8001
+      - NEXT_PUBLIC_MAPBOX_TOKEN=pk.eyJ1Ijoia2Fkb3h4YSIsImEiOiJjbWQ1NTJ6YnYwYTJiMmpzYWY0ZHFveTBoIn0.Mb2R7vX_uO0svd84mvXT_A
+    depends_on:
+      - backend
+    command: sh -c "npm install && npm run dev"
+
+volumes:
+  postgres_data:
